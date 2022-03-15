@@ -15,7 +15,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? `${namabot} tidak aktif` : banned ? 'kamu dibanned' : `${namabot} disini, ada yang bisa saya bantu?`,
+                isBanned ? `${ReihanBotZ} tidak aktif` : banned ? 'kamu dibanned' : `${ReihanBotZ} disini, ada yang bisa saya bantu?`,
                 footer,
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
@@ -32,7 +32,7 @@ handler.all = async function (m, { isBlocked }) {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let math = max - xp
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup && !m.fromMe && !m.isOwner) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
+        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `┏━━━ꕥ〔 *${ReihanBotZ}* 〕ꕥ━⬣
 ┃✾ Hai, ${name}!
 ┃
 ┃✾ Tersisa *${limit} Limit*
@@ -45,10 +45,10 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ *1 Bulan :* Rp 15000
 ┃✾ *Permanen :* Rp 30000
 ┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :* https://youtu.be/gk7euEW1vis 
+┃✾ *Sc Bot :*  
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 0882-7926-8363
+┃✾ *Dana :* 0853
 ┃✾ *Gopay :* Masih Lewat Qr
 ┃✾ *Ovo :* Masih Lewat Qr
 ┃✾ *Pulsa :* Masih Belum Bisa 
@@ -92,7 +92,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${namabot} by ${namalu}`).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${ReihanBotZ} by ${YesarGanZ✓}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
