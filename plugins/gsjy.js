@@ -25,7 +25,7 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Instagram: ReihanBotZ
+┃✾ Instagram: https://www.instagram.com/p/B_-7ew2DxCC/?utm_medium=copy_link
 ┃✾ ReihanBotZ
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
