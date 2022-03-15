@@ -42,16 +42,16 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ ${exp} XP secara Total
 ┗━ꕥ
 ┏━━━ꕥ〔 *BELI/SEWA BOT* 〕ꕥ━⬣
-┃✾ *1 Bulan :* Rp 15000
-┃✾ *Permanen :* Rp 30000
-┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :*  
+┃✾ *1 Bulan :* Rp 15000 [Pulsa : Rp 20000]
+┃✾ *Permanen :* Rp 30000 [Pulsa : Rp 35000]
+┃✾ *Premium :* Rp 15000 [Pulsa : Rp 20000]
+┃✾ *Sc Bot :*  https://github.com/ReihanBotZ
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 0853
-┃✾ *Gopay :* Masih Lewat Qr
-┃✾ *Ovo :* Masih Lewat Qr
-┃✾ *Pulsa :* Masih Belum Bisa 
+┃✾ *Dana :* 085368159958
+┃✾ *Gopay :* 085368159958
+┃✾ *Ovo :* 085368159958
+┃✾ *Pulsa :* 085368159958
 ┗━ꕥ`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
 }
     // salam
