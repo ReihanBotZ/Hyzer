@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '┃✾%cmd %islimit %isPremium',
   footer: '┗━ꕥ\n',
   after: `
-*ShiroBotz@^%version*
+*ReihanBotZ@^%version*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
