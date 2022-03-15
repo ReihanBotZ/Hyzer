@@ -48,9 +48,9 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ *Sc Bot :*  https://github.com/ReihanBotZ
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 085368159958
-┃✾ *Gopay :* 085368159958
-┃✾ *Ovo :* 085368159958
+┃✾ *Dana :* Scan QR Di Profil Ku
+┃✾ *Gopay :* Scan QR Di Profil Ku
+┃✾ *Ovo :* Scan QR Di Profil Ku
 ┃✾ *Pulsa :* 085368159958
 ┗━ꕥ`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
 }
