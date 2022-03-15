@@ -25,8 +25,8 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Instagram:
-┃✾ shiroo_craziiphat
+┃✾ Instagram: ReihanBotZ
+┃✾ ReihanBotZ
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏━━ꕥ〔 *ShiroBotz* 〕ꕥ━⬣
+┏━━ꕥ〔 *ReihanBotZ* 〕ꕥ━⬣
 ┃✾ Aktif selama ${uptime}
 ┃✾ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ┃✾ *${Object.keys(global.db.data.users).length}* Pengguna
@@ -252,10 +252,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━ꕥ
 ┏━ꕥ
-┃✾ Script by Lord Hyzer愛
+┃✾ Script by *_YesarGanZ✓_*
 ┃✾ Github Name : https://github.com/Hyzerr
-┃✾ IG Owner : shiroo_craziiphat
-┃✾ *スパムしないでください*
+┃✾ Nama Owner : *YesarGanZ✓*
+┃✾ *Nama Bot : *ReihanBotZ*
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "KLIK DISINI",
           "listType": "SINGLE_SELECT",
@@ -388,7 +388,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Menu Khusu Owner",
+                  "description": "Menu Khusus Owner",
                   "rowId": ".? owner"
                 }
               ]
