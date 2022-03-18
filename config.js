@@ -16,10 +16,10 @@ gc1 = 'https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm'
 gc2 = 'https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm'
 gc3 = 'https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm'
 global.linkGC = ['https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm', ''] // ganti jadi group lu
-global.owner = ['6281379159390'] // Put your number here //owner eval
-global.kontak = ['6281379159390','082175165916'] //Ketika ada yang ngetik #owner
+global.owner = ['6281379159390','6285368159958'] // Put your number here //owner eval
+global.kontak = ['6281379159390','6285368159958'] //Ketika ada yang ngetik #owner
 global.mods = ['6285368159958'] // Want some help?
-global.prems = ['6282175165916'] // Premium user has unlimited limit
+global.prems = ['6281379159390'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -54,8 +54,8 @@ leyskey = 'dappakntlll'
 bearkey = 'buy'
 
 //xteam        MIMINETBOT
-namaig = 'https://instagram.com/shiroo_craziiphat'
-namagithub = ''
+namaYT = 'Wings Gaming'
+namaGithub = 'https://github.com/ReihanBotZ'
 kasihcaption = `Nih kak`
 namakontak1 = 'YesarGanZ✓.'
 namakontak2 = 'YesarGanZ✓..'
@@ -64,7 +64,7 @@ namakontak2 = 'YesarGanZ✓..'
 
 // Sticker WM
 global.packname = 'By ReihanBotZ' // ganti aja
-global.author = 'hehe' // ganti aja
+global.author = 'ReihanBotZ' // ganti aja
 
 //yyy
 bc = 'ReihanBotZ' //ReihanBotZ Broadcast
@@ -74,11 +74,11 @@ namalu = 'YesarGanZ✓'
 
 
 // 
-wait = '_*Tunggu Sebentar...*_'
-global.wait = '_*Tunggu Sebentar...*_'
+wait = '_*[⏳] Tunggu Sebentar...*_'
+global.wait = '_*[⏳] Tunggu Sebentar...*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '_*Server Error*_'
+global.eror = '_*Server Error [❗]*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
