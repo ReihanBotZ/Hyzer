@@ -25,14 +25,14 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Instagram: https://www.instagram.com/p/B_-7ew2DxCC/?utm_medium=copy_link
-┃✾ ReihanBotZ
+┃✾ Github: https://github.com/ReihanBotZ
+┃✾ Nama Owner: YesarGanZ✓
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
   footer: '┗━ꕥ\n',
   after: `
-*ReihanBotZ@^%version*
+*© ReihanBotZ*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
